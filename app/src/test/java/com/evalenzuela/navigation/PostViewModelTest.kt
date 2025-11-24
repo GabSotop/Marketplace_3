@@ -51,6 +51,6 @@ class PostViewModelTest {
         val posts = viewModel.postList.first()
 
         assertEquals(2, posts.size)
-        assertEquals("Titulo Mock 1", posts[0].title)
+        assertEquals("Laptop Gamer: ¡Corre todo en Ultra!", posts[0].title)
     }
 }
